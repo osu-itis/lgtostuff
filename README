@@ -1,0 +1,2 @@
+Scripts to check the version of installed Networker clients.. also scripts to
+upgrade deb and rpm linux systems.  Be sure to update the hostlist var!
