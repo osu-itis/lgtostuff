@@ -19,6 +19,6 @@ do
 		ssh $h "rpm -Uvh /tmp/$client64"
         ssh $h "rm /tmp/$client64"
 	fi
-	ssh $h '/etc/init.d/networker start'
+	ssh $h 'systemctl start networker'
 done
 
